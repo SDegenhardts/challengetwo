@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  box-sizing: 0;
+
+}
+
+body {
+  background-image: url("../public/campo.jpg");
+  background-size: cover;
+}
