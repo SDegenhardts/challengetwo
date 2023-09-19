@@ -4,7 +4,7 @@ import { styled } from "styled-components"
 
 export default function Footer() {
     return (
-        <Wrapper>
+        <Wrapper className="w-full">
             <div className='flex flex-col'>
                 <h1 className='font-bold text-3xl'>Kontakt</h1>
                 <ol className=' text-left'>
@@ -41,7 +41,5 @@ const Wrapper = styled.footer`
     justify-content: space-evenly;
     align-items: center;
     height: 14vw;
-    margin-bottom: 0%;
-    width: 100vw;
 
 `
