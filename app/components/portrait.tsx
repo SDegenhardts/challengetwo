@@ -3,8 +3,7 @@
 import { styled } from "styled-components"
 import Image from "next/image"
 
-export default function Portrait
-    () {
+export default function Portrait() {
     return (
         <Wrapper>
             <Image width={1000} height={300} src={("/portrait.png")} alt={'portrait'} />
