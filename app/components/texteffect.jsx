@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 
+
 export function TextEffect(props) {
     const [text, setText] = useState("");
 
