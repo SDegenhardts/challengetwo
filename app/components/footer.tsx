@@ -36,10 +36,12 @@ export default function Footer() {
 const Wrapper = styled.footer`
     display: flex;
     background-color: black;
-    color: #F2D64B;
+    color: #ffffff;
     padding: 20px;
     justify-content: space-evenly;
     align-items: center;
     height: 14vw;
+    background-image: url("/footer.png");
+    background-size: 100vw 40vh;
 
 `
